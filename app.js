@@ -18,15 +18,32 @@ function agregarAmigo() {
 }
 
 function mostrarLista() {
-    // 1. Obtenemos el elemento de la lista
+    // Obtenemos el elemento de la lista
     let lista = document.getElementById("listaAmigos");
 
-    // 2. Limpiamos la lista existente
+    // Limpiamos la lista existente
     lista.innerHTML = "";
 
-    // 3. Recorremos el arreglo Amigos
+    // Recorremos el arreglo Amigos
     for (let i = 0; i < Amigos.length; i++) {
-        // 4. Agregamos un <li> por cada amigo
+        // Agregamos un <li> por cada amigo
         lista.innerHTML += "<li>" + Amigos[i] + "</li>";
     }
+}
+
+function sortearAmigo() {
+    // Validar que haya amigos en el arreglo
+    if (Amigos.length === 0) {
+        alert("No hay amigos disponibles para sortear.");
+        return;
+    }
+
+    // Generar un índice aleatorio
+    let indiceAleatorio = Math.floor(Math.random() * Amigos.length);
+
+    // Obtener el nombre sorteado
+    let amigoSorteado = Amigos[indiceAleatorio];
+
+    // Mostrar el resultado en el HTML
+    document.getElementById("resultado").innerHTML = "El amigo secreto es: " + amigoSorteado;
 }
