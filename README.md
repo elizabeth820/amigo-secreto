@@ -13,7 +13,7 @@ Puedes visualizar el proyecto aquí: https://dulcet-pasca-838339.netlify.app/
 - **Sorteo**: botón que elige aleatoriamente un amigo secreto y muestra el resultado.  
 
 ## Vista previa
-![Pantalla principal](assets/Captura de pantalla 2025-08-31 201615.png)
+![Pantalla principal](assets/captura.png)
 
 ## Instalación y uso
 1. Clona este repositorio en tu computadora:  
