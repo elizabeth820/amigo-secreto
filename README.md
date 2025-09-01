@@ -12,6 +12,9 @@ Puedes visualizar el proyecto aquí: https://dulcet-pasca-838339.netlify.app/
 - **Lista de amigos**: se actualiza dinámicamente con los nombres ingresados.  
 - **Sorteo**: botón que elige aleatoriamente un amigo secreto y muestra el resultado.  
 
+## Vista previa
+![Pantalla principal](assets/Captura de pantalla 2025-08-31 201615.png)
+
 ## Instalación y uso
 1. Clona este repositorio en tu computadora:  
    ```bash
